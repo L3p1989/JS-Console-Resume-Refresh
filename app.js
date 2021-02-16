@@ -1,0 +1,2 @@
+// Personal info
+let me = {name: "L3p", career: "Aspiring", about: "I've the greater majority of my life in customer service. I attempted to get into warehouse work but was injured in both jobs I tried. I am now pursuing my goal of becoming a Web developer"};
