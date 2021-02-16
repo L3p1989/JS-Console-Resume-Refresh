@@ -4,5 +4,7 @@ console.log(me);
 // Interests array
 let interests = ["Fishing", "Camping", "Hiking", "Gaming", "Technology", "Coding"];
 console.log(interests);
-// work experience
+// work experience object
 let job = {name: "DirecTV", title: "Tech Support", description: "Answering phone calls for tech support on DirecTV related equipment and software issues. Controlling call flow by using scripts and related experience or training. Making every call a conversation and not a transaction. Meeting or exceeding goals put forth by my team leader"};
+// skills array
+let skills = ["Technical Support", "Customer Satisfaction", "Computer Repair", "Network Security", "Inventory Management", "Cash Handling", "HTML", "CSS", "Javascript"];
