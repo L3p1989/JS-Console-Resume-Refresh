@@ -44,7 +44,7 @@ displayPosition(job3);
 displayPosition(job4);
 // displaySkill function
 function displaySkill({ cool, name }) {
-    if (cool == Boolean(true)) {
+    if (cool) {
         console.log(`"BAM: ${name}"`)
     } else {
         console.log(name);
