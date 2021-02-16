@@ -31,13 +31,7 @@ let skill8 = {cool: 1, name: "CSS"};
 
 let skill9 = {cool: 1, name: "Javascript"};
 // displayPosition function
-function displayPosition(position) {
-    let name = position.name;
-
-    let title = position.title;
-
-    let description = position.description;
-
+function displayPosition({ name, title, description }) {
     console.log(`"Company Name: ${name} Position Held: ${title} Job Description: ${description}"`);
 };
 //displayPosition calls
@@ -49,18 +43,14 @@ displayPosition(job3);
 
 displayPosition(job4);
 // displaySkill function
-function displaySkill(skill) {
-    let cool = skill.cool;
-
-    let name = skill.name;
-
+function displaySkill({ cool, name }) {
     if (cool == Boolean(true)) {
         console.log(`"BAM: ${name}"`)
     } else {
         console.log(name);
     }
 };
-
+// displaySkill calls
 displaySkill(skill1);
 
 displaySkill(skill2);
