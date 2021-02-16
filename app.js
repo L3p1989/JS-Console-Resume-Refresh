@@ -44,11 +44,7 @@ displayPosition(job3);
 displayPosition(job4);
 // displaySkill function
 function displaySkill({ cool, name }) {
-    if (cool) {
-        console.log(`"BAM: ${name}"`)
-    } else {
-        console.log(name);
-    }
+    console.log(`${cool ? 'BAM: ' : '' }${name}`);
 };
 // displaySkill calls
 displaySkill(skill1);
