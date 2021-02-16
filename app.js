@@ -12,8 +12,24 @@ let job2 = {name: "Pizza Hut", title: "Cook", description: "Taking orders by pho
 let job3 = {name: "Pizza Hut", title: "Delivery Driver", description: "Taking calls as fast as possible to take customer orders, and inquiries. Driving to and from customer business' or homes as quick as possible. Always using the CARES model to ensure the highest level of customer service when in store or out of store. Handling cash for orders. Doing daily duties before leaving such as mopping store, cleaning and stocking bathrooms, cleaning oven racks, stocking chicken, cleaning and stocking wing table. Handling cash or charge sales."};
 
 let job4 = {name: "DirecTV", title: "Tech Support", description: "Answering phone calls for tech support on DirecTV related equipment and software issues. Controlling call flow by using scripts and related experience or training. Making every call a conversation and not a transaction. Meeting or exceeding goals put forth by my team leader"};
-// skills array
-let skills = ["Technical Support", "Customer Satisfaction", "Computer Repair", "Network Security", "Inventory Management", "Cash Handling", "BAM: HTML", "BAM: CSS", "BAM: Javascript"];
+// skills objects
+let skill1 = {cool: false, name: "Technical Support"};
+
+let skill2 = {cool: false, name: "Customer Satisfaction"};
+
+let skill3 = {cool: false, name: "Computer Repair"};
+
+let skill4 = {cool: false, name: "Network Security"};
+
+let skill5 = {cool: false, name: "Inventory Management"};
+
+let skill6 = {cool: false, name: "Cash Handling"};
+
+let Skill7 = {cool: true, name: "HTML"};
+
+let skill8 = {cool: true, name: "CSS"};
+
+let skill9 = {cool: true, name: "Javascript"};
 // displayPosition function
 function displayPosition(name, title, description) {
     console.log(name, title, description)
@@ -26,3 +42,4 @@ displayPosition(job2);
 displayPosition(job3);
 
 displayPosition(job4);
+// displaySkill
